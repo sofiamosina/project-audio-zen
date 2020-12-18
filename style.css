@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+.lake-bg {
+  background-image: url("./img/lake.png");
+}
+.rain-bg {
+  background-image: url("./img/rain.png");
+}
+.garden-bg {
+  background-image: url("./img/garden.png");
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.sound-buttons {
+  width: 800px;
+  height: 100px;
+  margin-top: auto;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sound-buttons button {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  box-shadow: none;
+  border: none;
+  line-height: 36px;
+  outline: none;
+  background: rgb(255, 255, 255, 0.35);
+}
+.sound-buttons button:hover {
+  background: rgb(255, 255, 255, 1);
+}
+.bg-buttons {
+  width: 100%;
+  height: 100px;
+  justify-self: flex-end;
+  align-self: center;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bg-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+  width: 35%;
+  outline: none;
+  color: #fff;
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+}
+.navigation {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zen</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="./index.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="" />
+  </head>
+  <body>
+    <div class="wrapper lake-bg">
+      <div class="sound-buttons">
+        <!-- Calling functions on click -->
+        <button onclick="makeSound(this)" name="lake-main-theme">lake</button>
+        <button onclick="makeSound(this)" name="firepit" class="sound">
+          firepit
+        </button>
+        <button onclick="makeSound(this)" name="birds" class="sound">
+          birds
+        </button>
+        <button onclick="makeSound(this)" name="wind" class="sound">
+          wind
+        </button>
+        <button onclick="(reset())">reset</button>
+      </div>
+      <div class="bg-buttons">
+        <a
+          href="./index.html"
+          style="background: rgba(43, 37, 33, 0.75); text-decoration: underline"
+          class="lake"
+          >lake by the mountain</a
+        >
+        <a
+          href="./rain.html"
+          style="background: rgba(43, 37, 33, 0.35)"
+          class="rain"
+          >rain in NY</a
+        >
+        <a
+          href="./garden.html"
+          style="background: rgba(43, 37, 33, 0.35)"
+          class="garden"
+          >japanese garden</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
